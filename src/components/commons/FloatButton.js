@@ -6,9 +6,9 @@ const FloatButton = () => (
   <FloatContainer>
     <Space wrap>
       <Popover
-        title="Haz click en los nombres de los indicadores para ocultarlos o mostrarlos"
         trigger="hover"
         placement="bottomRight"
+        content="Haz click en los nombres de los indicadores para ocultarlos o mostrarlos"
       >
         <Button shape="circle">?</Button>
       </Popover>

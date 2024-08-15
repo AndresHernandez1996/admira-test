@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import CardContainer from '@components/ui/CardContainer';
+import CardContainer from '@components/commons/CardContainer';
 import Bar from '@components/charts/Bar';
 
 const GastoComp = ({ data }) => {

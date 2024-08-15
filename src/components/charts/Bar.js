@@ -66,8 +66,8 @@ const Bar = ({ data, colors = defaultColors, type = 'money', country, padding = 
           type: ['line', 'bar', 'stack', 'tiled'],
         },
         saveAsImage: {
-          title: 'Download',
-          type: 'png',
+          title: 'Descargar como svg',
+          type: '.svg',
         },
       },
       iconStyle: individualBar.iconStyle,

@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import CardContainer from '@components/ui/CardContainer';
+import CardContainer from '@components/commons/CardContainer';
 import { Pie } from '@components/charts/Pie';
 import { FlexContainer } from '@styles/styled-components';
 

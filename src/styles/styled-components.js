@@ -57,8 +57,7 @@ export const LoaderContainer = styled.div`
 
 export const FloatContainer = styled.div`
   position: fixed;
-
-  top: 75px;
+  top: 80px;
   right: 10px;
   button {
     color: var(--primary-color);

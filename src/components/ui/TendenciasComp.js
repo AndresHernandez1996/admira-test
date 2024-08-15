@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Bar from '@components/charts/Bar';
-import CardContainer from '@components/ui/CardContainer';
+import CardContainer from '@components/commons/CardContainer';
 
 const TendenciasComp = ({ data }) => {
   return (

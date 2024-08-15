@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Loader from '@components/ui/Loader';
+import Loader from '@components/commons/Loader';
 import './globals.css';
 
 export default function Home() {
