@@ -15,6 +15,7 @@ export const TitleCard = styled.span`
 `;
 
 export const GraphCard = styled.div`
+  background-color: var(--white-color);
   width: 100%;
   min-width: 300px;
   max-width: 1000px;

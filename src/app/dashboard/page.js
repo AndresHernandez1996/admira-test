@@ -73,9 +73,9 @@ const Dashboard = () => {
       <Navbar />
       <main>
         <ContentWrapper>
+          <FloatButton />
           {/* RENDIMIENTO */}
           <RendimientoComp data={rendimiento} />
-          <FloatButton />
           {/* TENDENCIAS */}
           <TendenciasComp data={sesiones} />
           {/* DEMOGRAFÍA */}

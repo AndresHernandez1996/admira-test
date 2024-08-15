@@ -62,6 +62,7 @@ export const NavListHeader = styled.div`
 export const ContentWrapper = styled.div`
   padding: 20px;
   margin-bottom: 100px;
+  background-color: var(--white-color);
 `;
 export const BurgerContainer = styled.div`
   width: 50px;
