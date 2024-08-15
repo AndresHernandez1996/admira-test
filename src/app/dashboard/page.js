@@ -18,7 +18,6 @@ import DistribucionComp from '@components/views/DistribucionComp';
 import GastoComp from '@components/views/GastoComp';
 import Loader from '@components/ui/Loader';
 import FloatButton from '@components/ui/FloatButton';
-
 const Dashboard = () => {
   const [loading, setLoading] = useState(true);
   const [rendimiento, setRendimiento] = useState({});
