@@ -1,0 +1,17 @@
+{
+  "extends": "next/core-web-vitals",
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "extensions": [".js", ".jsx"],
+        "map": [
+          ["@", "."],
+          ["@components", "./src/components"],
+          ["@styles", "./src/styles"],
+          ["@entities", "./src/entities"],
+          ["@utils", "./src/utils"]
+        ]
+      }
+    }
+  }
+}
